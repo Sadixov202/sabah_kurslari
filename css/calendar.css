@@ -1,0 +1,107 @@
+.hk-reset--button {
+    background: none;
+    border: 0;
+}
+
+.hk-left {
+    float: left;
+}
+
+.hk-right {
+    float: right;
+}
+
+.hk-calendar {
+    margin-top: 18px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Roboto";
+    table-layout: fixed;
+    text-align: center;
+}
+
+.hk-calendar__caption{
+    border: 1px solid #cbcbcb;
+    padding: 12px;
+    font-size: 16px;
+    color: #047a40;
+    font-family: "SourceSansBold";
+    text-align: center
+}
+i.left{
+    float: left;
+    font-size: 10px;
+    margin-top: 3px;
+    color: #999999;
+    cursor: pointer;
+}
+i.right{
+    float: right;
+    font-size: 10px;
+    margin-top: 3px;
+    color: #999999;
+    cursor: pointer;
+}
+.hk-calendar__day {
+    padding: .875em;
+}
+.calendar__date{    
+    line-height: 40px;
+    font-size: 18px;
+    color: #666666;
+    font-family: "SourceSansBold";
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+
+}
+.hk-calendar__date{
+    line-height: 40px;
+    font-size: 18px;
+    color: #666666;
+    font-family: "SourceSansBold";
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+
+}
+.hk-calendar__date:hover{
+    background: #eee;
+}
+.hk-calendar__day {
+    padding-top: 12px;
+    font-size: 12px;
+    color: #a7cde3;
+    font-family: "SourceSansRegular";
+    text-align: center;
+}
+
+.hk-calendar__date-link {
+    font-size: 18px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.hk-calendar__date-link.-disabled {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: #666666;
+    text-decoration: none; 
+} 
+a:focus {
+    text-decoration: none;
+}
+.now_td{
+    background-color: #e5ffe8;
+}
+.now_date{
+    color: #009c4e;
+}
+.event{
+    background-color: #e5ffe8;
+}
